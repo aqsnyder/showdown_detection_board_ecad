@@ -416,7 +416,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "showdown.kicad_pro",
+    "filename": "showdown_detection_board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -578,6 +578,10 @@
     [
       "b2914e51-1eb1-4e40-b847-9ce56891b95a",
       "Root"
+    ],
+    [
+      "544c35c3-11fa-4c87-a258-58210fdf4244",
+      "external_battery"
     ]
   ],
   "text_variables": {}
